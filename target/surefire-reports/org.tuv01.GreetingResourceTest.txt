@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.tuv01.GreetingResourceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.098 s <<< FAILURE! - in org.tuv01.GreetingResourceTest
+org.tuv01.GreetingResourceTest.testGreetingEndPoint  Time elapsed: 0.048 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: is "hello 5ef92658-9c95-47e7-b97e-430a7de1d81f"
+  Actual: hello5ef92658-9c95-47e7-b97e-430a7de1d81f
+
+	at org.tuv01.GreetingResourceTest.testGreetingEndPoint(GreetingResourceTest.java:31)
+
