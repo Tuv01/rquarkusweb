@@ -23,4 +23,4 @@ tasks:
   - init: ./mvnw install -DskipTests=false
   - command: mysql -e "show databases;"
   - command: python3 -m http.server 8080
-  - command: gp preview $(gp url 8080)
+  - command: gp preview $(gp url 8080)/workspace/rquarkusweb/src/main/resources/META-INF/resources/index.html
