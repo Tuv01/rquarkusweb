@@ -20,6 +20,7 @@
   </properties>
   <dependencyManagement>
     <dependencies>
+        
       <dependency>
         <groupId>${quarkus.platform.group-id}</groupId>
         <artifactId>${quarkus.platform.artifact-id}</artifactId>
@@ -117,6 +118,12 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-reactive-pg-client</artifactId>
     </dependency>
+    <dependency>
+    <groupId>io.openliberty</groupId>
+    <artifactId>openliberty-runtime</artifactId>
+    <version>[20.0.0.10,)</version>
+    <type>zip</type>
+</dependency>
   </dependencies>
   <build>
     <plugins>
