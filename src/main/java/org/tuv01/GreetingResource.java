@@ -1,8 +1,10 @@
 package org.tuv01;
+
 import org.rest.json.Fruit;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
+import javax.ws.rs.HeaderParam;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -15,6 +17,8 @@ import org.jboss.resteasy.annotations.jaxrs.PathParam;
 @Path("/hello")
 public class GreetingResource {
 
+    public static final String TOKEN= "dev";
+    
     @Inject
     GreetingService service;
     
@@ -53,9 +57,10 @@ public class GreetingResource {
     }
 
     @POST
+    @Path("/addToken")
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public String addHello(@QueryParam("name") String aName, String body){
+    public String addHello(@HeaderParam("token")String hName,@QueryParam("token") String aName, String body){
         return "{\"key\": \"" + aName + "\"}";
     }
 
