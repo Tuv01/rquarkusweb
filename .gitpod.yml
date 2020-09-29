@@ -1,6 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 ports:
+  - port: 3000
   - port: 8080
     onOpen: open-preview
   - port: 5005
@@ -22,10 +23,17 @@ github:
     addCheck: true
     # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
     addComment: false
-
+vscode:
+  extensions:
+    - vscjava.vscode-maven@0.18.1:Ga0twwGQDu7XhFR1f838vg==
+    - vscjava.vscode-java-test@0.24.1:adMLnibuhohxpDp7AmLe9g==
 tasks:
   - init: ./mvnw install -DskipTests=false
+  - init: echo 'init script' # runs during prebuild
+  - init: ./mvnw package -DskipTests
+  - command: java -jar target/*.jar
+  - command: echo 'start script'
   - command: mysql -e "show databases;"
   - command: python3 -m http.server 8080
-  - command: gp preview $(gp url 8080)/rquarkusweb/src/main/resources/META-INF/resources/index.html
+  - command: gp preview $(gp url 8080) /rquarkusweb/src/main/resources/META-INF/resources/index.html
   - command: mysql -e "show databases;"

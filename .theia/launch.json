@@ -4,10 +4,24 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "java",
-      "name": "Debug (Launch) - Current File",
-      "request": "launch",
-      "mainClass": "${file}"
+        "type": "java",
+        "name": "CodeLens (Launch) - RESTEasyClient",
+        "request": "launch",
+        "mainClass": "org.rest.json.RESTEasyClient",
+        "projectName": "rquarkusweb"
+    },
+    {
+        "type": "java",
+        "name": "CodeLens (Launch) - App",
+        "request": "launch",
+        "mainClass": "App",
+        "projectName": "rquarkusweb"
+    },
+    {
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "mainClass": "${file}"
     }
-  ]
+]
 }

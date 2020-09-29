@@ -1,0 +1,10 @@
+org/rest/client/CountriesResource.class
+org/rest/client/CountriesService.class
+org/rest/json/Legume.class
+org/rest/json/LegumeResource.class
+org/rest/json/FruitResource.class
+org/rest/client/Country.class
+org/rest/json/Fruit.class
+org/tuv01/GreetingResource.class
+org/tuv01/GreetingService.class
+org/rest/client/Country$Currency.class
