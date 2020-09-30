@@ -24,7 +24,10 @@ public class GreetingService {
 
     public String greeting() {
         //final String name = ConfigProvider.getConfig().getValue("greeting.name",String.class);
-        return greetingConfig.getName() + greetingConfig.getSuffix();
+        return greetingConfig.getName() 
+        + greetingConfig.getSuffix() 
+        + " your country is " 
+        + greetingConfig.getCountryConfig().getName();
     }
 
 }
