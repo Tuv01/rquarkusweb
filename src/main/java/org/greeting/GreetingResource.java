@@ -12,11 +12,19 @@ import javax.ws.rs.core.MediaType;
 public class GreetingResource {
 
 
-    @Inject
+    @Inject 
     private GreetingService greetingService;
+
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
+    public String hello(){
+        return greetingService.greeting();
+    }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("/{name}")
     public String hello(@QueryParam("name") String name) {
         return greetingService.greeting(name);
     }

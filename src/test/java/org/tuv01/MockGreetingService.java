@@ -1,21 +1,24 @@
-package org.greeting;
+package org.tuv01;
 
-import java.util.UUID;
 
 import javax.enterprise.context.ApplicationScoped;
 
+import org.greeting.GreetingService;
+
+import io.quarkus.test.Mock;
+
+@Mock
 @ApplicationScoped
-public class GreetingService {
+public class MockGreetingService extends GreetingService {
     
     public String greeting (String name){
         return String.format("Hello %s, your id is %s",
         name, 
-        UUID.randomUUID().toString()
+        "1234"
         );
     }
 
     public String greeting() {
         return "Hello";
     }
-
 }
