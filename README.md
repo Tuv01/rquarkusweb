@@ -2,11 +2,9 @@
 
 #  Quarkus Backend development with Java and GraalVM
 ## Learn how to build native backend applications with Quarkus. 
-###### [Udemy course](https://www.udemy.com/course/quarkus-backend-development-java/) created by Dmytro Chaban CEO at DonauTech
+###### Project based on the [Udemy course](https://www.udemy.com/course/quarkus-backend-development-java/) created by Dmytro Chaban CEO at DonauTech
 
-
-
-Content:
+Course Content:
 
     Use Quarkus framework for backend development
     REST API with Quarkus
