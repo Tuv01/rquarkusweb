@@ -1,4 +1,4 @@
-package org.tuv01;
+package org.greeting;
 
 import org.rest.json.Fruit;
 
