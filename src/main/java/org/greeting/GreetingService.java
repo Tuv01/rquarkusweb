@@ -3,19 +3,16 @@ package org.greeting;
 import java.util.UUID;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 
-import org.eclipse.microprofile.config.ConfigProvider;
-import org.eclipse.microprofile.config.inject.ConfigProperty;
+import org.config.GreetingConfig;
+
 
 @ApplicationScoped
 public class GreetingService {
     
-    //@ConfigProperty(name = "greeting.name")
-    //String name;
-
-    @ConfigProperty(name = "greeting.suffix", defaultValue = "!")
-    String suffix;
-
+    @Inject
+    GreetingConfig greetingConfig;
   
 
     public String greeting (String name){
@@ -26,8 +23,8 @@ public class GreetingService {
     }
 
     public String greeting() {
-        final String name = ConfigProvider.getConfig().getValue("greeting.name",String.class);
-        return name + suffix;
+        //final String name = ConfigProvider.getConfig().getValue("greeting.name",String.class);
+        return greetingConfig.getName() + greetingConfig.getSuffix();
     }
 
 }
