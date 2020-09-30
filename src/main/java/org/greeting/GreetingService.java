@@ -4,9 +4,20 @@ import java.util.UUID;
 
 import javax.enterprise.context.ApplicationScoped;
 
+import org.eclipse.microprofile.config.ConfigProvider;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
+
 @ApplicationScoped
 public class GreetingService {
     
+    //@ConfigProperty(name = "greeting.name")
+    //String name;
+
+    @ConfigProperty(name = "greeting.suffix", defaultValue = "!")
+    String suffix;
+
+  
+
     public String greeting (String name){
         return String.format("Hello %s, your id is %s",
         name, 
@@ -15,7 +26,8 @@ public class GreetingService {
     }
 
     public String greeting() {
-        return "Hello";
+        final String name = ConfigProvider.getConfig().getValue("greeting.name",String.class);
+        return name + suffix;
     }
 
 }

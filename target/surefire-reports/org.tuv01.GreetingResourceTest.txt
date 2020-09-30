@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.tuv01.GreetingResourceTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 2.737 s <<< FAILURE! - in org.tuv01.GreetingResourceTest
-org.tuv01.GreetingResourceTest.testHelloEndpoint  Time elapsed: 0.012 s  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 7.4 s <<< FAILURE! - in org.tuv01.GreetingResourceTest
+org.tuv01.GreetingResourceTest.testHelloEndpoint  Time elapsed: 0.011 s  <<< ERROR!
 java.lang.RuntimeException: 
 java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
 	[error]: Build step io.quarkus.arc.deployment.ArcProcessor#registerBeans threw an exception: javax.enterprise.inject.spi.DefinitionException: Field org.greeting.GreetingService org.tuv01.GreetingResourceTest.greetingService of class org.tuv01.GreetingResourceTest is not a producer field, but is annotated with a stereotype: io.quarkus.test.Mock
