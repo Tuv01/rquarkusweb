@@ -1,6 +1,23 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Tuv01/rquarkusweb)
 
+#  Quarkus Backend development with Java and GraalVM
+## Learn how to build native backend applications with Quarkus. 
+###### Project based on the [Udemy course](https://www.udemy.com/course/quarkus-backend-development-java/) created by Dmytro Chaban CEO at DonauTech
 
+Course Content:
+
+    Use Quarkus framework for backend development
+    REST API with Quarkus
+    Hibernate, JPA, Websockets with Quarkus
+    Documentation of endpoints with Quarkus
+    Reactive approach
+    Swagger, Open API and documentation made easy with Quarkus
+    RDBMS, NO-SQL with Quarkus
+    Messaging with Quarkus
+    Backend Security with Quarkus
+    Cloud, Kubernetes, Native images with Quarkus
+    Using Kotlin with Quarkus
+    
 # rquarkusweb project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
