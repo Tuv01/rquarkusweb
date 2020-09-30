@@ -1,4 +1,4 @@
-package org.rest.json;
+package org.fruits;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;

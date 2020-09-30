@@ -1,4 +1,4 @@
-package org.course;
+package org.books;
 
 import java.util.ArrayList;
 import java.util.List;

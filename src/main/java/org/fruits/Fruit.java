@@ -1,5 +1,4 @@
-package org.rest.json;
-
+package org.fruits;
 
 public class Fruit {
 
