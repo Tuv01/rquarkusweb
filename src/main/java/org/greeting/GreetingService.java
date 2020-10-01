@@ -12,7 +12,7 @@ import org.config.GreetingConfig;
 public class GreetingService {
     
     @Inject
-    GreetingConfig greetingConfig;
+    private GreetingConfig greetingConfig;
   
 
     public String greeting (String name){
