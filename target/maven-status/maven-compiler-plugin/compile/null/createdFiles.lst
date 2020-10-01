@@ -1,0 +1,9 @@
+org/fruits/FruitResource.class
+org/fruits/Fruit.class
+org/config/GreetingConfig.class
+org/greeting/GreetingResource.class
+org/greeting/GreetingService.class
+org/fruits/LegumeResource.class
+org/config/GreetingConfig$CountryConfig.class
+org/books/BookResource.class
+org/fruits/Legume.class
