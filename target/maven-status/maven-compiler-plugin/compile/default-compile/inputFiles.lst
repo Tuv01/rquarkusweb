@@ -2,8 +2,8 @@
 /workspace/rquarkusweb/src/main/java/org/greeting/GreetingResource.java
 /workspace/rquarkusweb/src/main/java/org/books/BookResource.java
 /workspace/rquarkusweb/src/main/java/org/fruits/FruitResource.java
-/workspace/rquarkusweb/src/main/java/org/config/GreetingConfig.java
 /workspace/rquarkusweb/src/main/java/org/fruits/LegumeResource.java
+/workspace/rquarkusweb/src/main/java/org/config/GreetingConfig.java
 /workspace/rquarkusweb/src/main/java/org/greeting/GreetingService.java
 /workspace/rquarkusweb/src/main/java/org/fruits/Legume.java
 /workspace/rquarkusweb/src/main/java/org/fruits/Fruit.java

@@ -23,8 +23,8 @@ public class StaticContentTest {
         try {
             body = IOUtils.toString(url, Charset.defaultCharset());
             System.out.println(body);
-            Assertions.assertTrue(body.contains("<h2> Why do you see this?</h2>"));
-        } catch (IOException e) {
+            Assertions.assertTrue(body.contains("<div>This is a test div </div>"));
+        } catch (final IOException e) {
             e.printStackTrace();
         }
         
