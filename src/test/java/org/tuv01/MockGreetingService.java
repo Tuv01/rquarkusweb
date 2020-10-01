@@ -11,6 +11,7 @@ import io.quarkus.test.Mock;
 @ApplicationScoped
 public class MockGreetingService extends GreetingService {
     
+  
     public String greeting (String name){
         return String.format("Hello %s, your id is %s",
         name, 
@@ -18,6 +19,7 @@ public class MockGreetingService extends GreetingService {
         );
     }
 
+    @Override
     public String greeting() {
         return "Hello";
     }

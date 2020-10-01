@@ -1,0 +1,7 @@
+#surefire_0
+#Thu Oct 01 11:11:41 UTC 2020
+basedir=/workspace/rquarkusweb
+java.util.logging.manager=org.jboss.logmanager.LogManager
+maven.home=/home/gitpod/.sdkman/candidates/maven/current
+user.dir=/workspace/rquarkusweb
+localRepository=/workspace/m2-repository

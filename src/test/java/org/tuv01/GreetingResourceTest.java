@@ -16,9 +16,10 @@ import java.util.UUID;
 
 @QuarkusTest
 public class GreetingResourceTest {
-
+    /*
     @Mock
     GreetingService greetingService;
+    */
 
     @Disabled
     @Test
@@ -28,7 +29,7 @@ public class GreetingResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Hello!"));
+             .body(is("Hello test! your country is TestLand"));
     }
 
     @Disabled

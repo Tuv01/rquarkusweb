@@ -1,14 +1,18 @@
 package org.config;
 
+import javax.validation.constraints.Size;
+
 import io.quarkus.arc.config.ConfigProperties;
 
 @ConfigProperties(prefix = "greeting")
 public class GreetingConfig {
 
+    @Size(max = 10)
     private String name; // greeting.name
     private String suffix = "!"; // greeting.suffix
     private CountryConfig countryConfig;
 
+   
     public String getName() {
         return name;
     }
