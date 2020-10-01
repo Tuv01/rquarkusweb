@@ -11,6 +11,7 @@ import org.config.GreetingConfig;
 @ApplicationScoped
 public class GreetingService {
     
+    //A package-private constructor injection. @Inject is optional in this particular case.
     @Inject
     private GreetingConfig greetingConfig;
   
@@ -23,7 +24,6 @@ public class GreetingService {
     }
 
     public String greeting() {
-        //final String name = ConfigProvider.getConfig().getValue("greeting.name",String.class);
         return greetingConfig.getName() 
         + greetingConfig.getSuffix() 
         + " your country is " 

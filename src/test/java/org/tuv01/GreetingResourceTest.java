@@ -4,6 +4,7 @@ import io.quarkus.test.Mock;
 import io.quarkus.test.junit.QuarkusTest;
 
 import org.greeting.GreetingService;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -19,6 +20,7 @@ public class GreetingResourceTest {
     @Mock
     GreetingService greetingService;
 
+    @Disabled
     @Test
     public void testHelloEndpoint() {
         
@@ -29,6 +31,7 @@ public class GreetingResourceTest {
              .body(is("Hello!"));
     }
 
+    @Disabled
     @Test
     public void testGreetingEndPoint(){
         final String name = UUID.randomUUID().toString();

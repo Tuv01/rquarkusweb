@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.tuv01.GreetingResourceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 7.792 s - in org.tuv01.GreetingResourceTest
