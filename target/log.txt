@@ -1,0 +1,13 @@
+2020-10-02 08:13:47,186 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.qua.arc.pro.BeanProcessor] (build-12) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.greeting.GreetingResource#greetingService,
+	- @Inject field org.greeting.GreetingService#greetingConfig
+2020-10-02 08:13:48,564 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-02 08:13:48,569 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-02 08:13:48,570 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-02 08:13:48,571 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-02 08:13:48,577 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-02 08:13:48,578 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-02 08:13:48,581 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-02 08:13:48,703 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 4.161s. Listening on: http://0.0.0.0:8080
+2020-10-02 08:13:48,704 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-02 08:13:48,704 ws-af4d6019-ec3a-4d95-8be3-0fba012896dd rquarkusweb-dev.jar[17845] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, jdbc-postgresql, mutiny, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]

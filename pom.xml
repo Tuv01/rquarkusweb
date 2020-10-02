@@ -20,7 +20,6 @@
   </properties>
   <dependencyManagement>
     <dependencies>
-        
       <dependency>
         <groupId>${quarkus.platform.group-id}</groupId>
         <artifactId>${quarkus.platform.artifact-id}</artifactId>
@@ -35,23 +34,22 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy</artifactId>
     </dependency>
-<dependency>
-    <groupId>io.quarkus</groupId>
-    <artifactId>quarkus-resteasy-jackson</artifactId>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.module</groupId>
-    <artifactId>jackson-module-parameter-names</artifactId>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.datatype</groupId>
-    <artifactId>jackson-datatype-jdk8</artifactId>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.datatype</groupId>
-    <artifactId>jackson-datatype-jsr310</artifactId>
-</dependency>
-
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-resteasy-jackson</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-parameter-names</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jdk8</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+    </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5</artifactId>
@@ -119,11 +117,15 @@
       <artifactId>quarkus-reactive-pg-client</artifactId>
     </dependency>
     <dependency>
-    <groupId>io.openliberty</groupId>
-    <artifactId>openliberty-runtime</artifactId>
-    <version>[20.0.0.10,)</version>
-    <type>zip</type>
-</dependency>
+      <groupId>io.openliberty</groupId>
+      <artifactId>openliberty-runtime</artifactId>
+      <version>[20.0.0.10,)</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-logging-json</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -186,20 +188,16 @@
               </execution>
             </executions>
           </plugin>
-
-
-<plugin>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>${surefire-plugin.version}</version>
-    <configuration>
-       <systemPropertyVariables>
-          <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
-          <maven.home>${maven.home}</maven.home>
-       </systemPropertyVariables>
-    </configuration>
-</plugin>
-
-
+          <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>${surefire-plugin.version}</version>
+            <configuration>
+              <systemPropertyVariables>
+                <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
+                <maven.home>${maven.home}</maven.home>
+              </systemPropertyVariables>
+            </configuration>
+          </plugin>
         </plugins>
       </build>
       <properties>
