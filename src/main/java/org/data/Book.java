@@ -4,23 +4,22 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
 public class Book {
-    
-    @NotBlank(message="Name shouldn't be blank")
+
+    @NotBlank(message = "Name shouldn't be blank")
     private String name;
-    @NotBlank(message="Author shouldn't be blank")
+    @NotBlank(message = "Author shouldn't be blank")
     private String author;
-    @Min(value=1, message = "Number of pages should be at least 1")
+    @Min(value = 1, message = "Number of pages should be at least 1")
     private Integer pages;
 
-    public Book(){
+    public Book() {
 
     }
 
     public Book(String name, String author) {
-        this.name=name;
-        this.author=author;
+        this.name = name;
+        this.author = author;
     }
-    
 
     public String getName() {
         return name;
@@ -40,7 +39,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book [name=" + name + "]+[author=" + author +"]";
+        return "Book [name=" + name + "]+[author=" + author + "]";
     }
 
     public Integer getPages() {
@@ -50,5 +49,5 @@ public class Book {
     public void setPages(Integer pages) {
         this.pages = pages;
     }
-    
+
 }

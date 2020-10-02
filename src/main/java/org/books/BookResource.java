@@ -2,6 +2,7 @@ package org.books;
 
 import java.util.ArrayList;
 
+import javax.inject.Inject;
 import javax.validation.Valid;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
@@ -14,6 +15,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.*;
 
 import org.data.Book;
+import org.service.BookService;
 
 @Path("/book")
 public class BookResource {
@@ -27,6 +29,9 @@ public class BookResource {
         books.add(new Book("Microservices best practices", "IBM"));
     }
 
+    @Inject
+    BookService bookService;
+
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getBooks() {
@@ -37,7 +42,7 @@ public class BookResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.TEXT_PLAIN)
     public Response addBook(@Valid Book book) {
-
+       
         if (books.size() > 5) {
             return Response.status(400).entity("No more than 5 books are allowed").build();
         } else {
