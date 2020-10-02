@@ -4,23 +4,18 @@ package org.data;
 public class Book {
     
     private Long id;
-
     private String name;
     private String author;
 
-    public Book(Long id,String name, String author) {
-        this.id=id;
+    public Book(){
+
+    }
+
+    public Book(String name, String author) {
         this.name=name;
         this.author=author;
     }
     
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
@@ -38,9 +33,9 @@ public class Book {
         this.author = author;
     }
 
- 
-
-    
-
+    @Override
+    public String toString() {
+        return "Book [name=" + name + "]+[author=" + author +"]";
+    }
     
 }
