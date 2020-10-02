@@ -2,6 +2,7 @@ package org.books;
 
 import java.util.ArrayList;
 
+import javax.validation.Valid;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -35,7 +36,7 @@ public class BookResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.TEXT_PLAIN)
-    public Response addBook(Book book) {
+    public Response addBook(@Valid Book book) {
 
         if (books.size() > 5) {
             return Response.status(400).entity("No more than 5 books are allowed").build();
