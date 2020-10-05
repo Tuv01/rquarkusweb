@@ -501,3 +501,351 @@ Caused by: java.lang.IllegalArgumentException: Unable to determine the proper ba
 	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:230)
 	... 40 more
 
+2020-10-05 14:47:28,606 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [io.qua.agr.dep.AgroalProcessor] (build-37) The Agroal dependency is present but no JDBC datasources have been defined.
+2020-10-05 14:47:30,213 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.arc.pro.BeanProcessor] (build-15) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.greeting.GreetingResource#greetingService,
+	- @Inject field org.crypto.CryptoCurrencyResource#echoService,
+	- @Inject field org.greeting.GreetingService#greetingConfig
+2020-10-05 14:47:31,518 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-05 14:47:31,521 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:47:31,522 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:47:31,523 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-05 14:47:31,527 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-05 14:47:31,528 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-05 14:47:31,530 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-05 14:47:31,634 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 3.921s. Listening on: http://0.0.0.0:8080
+2020-10-05 14:47:31,635 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-05 14:47:31,635 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-postgresql, mutiny, narayana-jta, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]
+2020-10-05 14:52:32,242 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-12) Changed source files detected, recompiling [/workspace/rquarkusweb/src/main/java/org/crypto/service/CurrencyService.java]
+2020-10-05 14:52:32,921 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStop executed
+2020-10-05 14:52:33,014 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00207: Cancel subscriptions
+2020-10-05 14:52:33,018 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb stopped in 0.099s
+2020-10-05 14:52:33,142 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [io.qua.agr.dep.AgroalProcessor] (build-6) The Agroal dependency is present but no JDBC datasources have been defined.
+2020-10-05 14:52:33,487 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.arc.pro.BeanProcessor] (build-18) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.greeting.GreetingResource#greetingService,
+	- @Inject field org.crypto.CryptoCurrencyResource#echoService,
+	- @Inject field org.greeting.GreetingService#greetingConfig
+2020-10-05 14:52:33,689 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.ForbiddenExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:52:33,690 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jsonb.QuarkusJsonbContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 14:52:33,690 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.AuthenticationFailedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:52:33,690 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jackson.QuarkusObjectMapperContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 14:52:33,690 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.NotFoundExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:52:33,690 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.SecurityContextFilter is already registered.  2nd registration is being ignored.
+2020-10-05 14:52:33,690 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:52:33,757 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-05 14:52:33,759 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:52:33,759 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:52:33,760 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-05 14:52:33,762 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-05 14:52:33,762 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-05 14:52:33,763 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-05 14:52:33,765 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 0.738s. Listening on: http://0.0.0.0:8080
+2020-10-05 14:52:33,765 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-05 14:52:33,766 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-postgresql, mutiny, narayana-jta, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]
+2020-10-05 14:52:33,766 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-12) Hot replace total time: 1.526s 
+2020-10-05 14:55:10,789 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-6) Changed source files detected, recompiling [/workspace/rquarkusweb/src/main/java/org/crypto/CryptoCurrencyResource.java]
+2020-10-05 14:55:11,035 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStop executed
+2020-10-05 14:55:11,037 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00207: Cancel subscriptions
+2020-10-05 14:55:11,038 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb stopped in 0.004s
+2020-10-05 14:55:11,135 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [io.qua.agr.dep.AgroalProcessor] (build-3) The Agroal dependency is present but no JDBC datasources have been defined.
+2020-10-05 14:55:11,438 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.arc.pro.BeanProcessor] (build-14) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.greeting.GreetingService#greetingConfig,
+	- @Inject field org.crypto.CryptoCurrencyResource#echoService,
+	- @Inject field org.greeting.GreetingResource#greetingService
+2020-10-05 14:55:11,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jsonb.QuarkusJsonbContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 14:55:11,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.ForbiddenExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:55:11,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.AuthenticationFailedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:55:11,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jackson.QuarkusObjectMapperContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 14:55:11,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.NotFoundExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:55:11,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.SecurityContextFilter is already registered.  2nd registration is being ignored.
+2020-10-05 14:55:11,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:55:11,676 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-05 14:55:11,677 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:55:11,678 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:55:11,678 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-05 14:55:11,680 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-05 14:55:11,680 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-05 14:55:11,681 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-05 14:55:11,681 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 0.638s. Listening on: http://0.0.0.0:8080
+2020-10-05 14:55:11,682 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-05 14:55:11,682 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-postgresql, mutiny, narayana-jta, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]
+2020-10-05 14:55:11,682 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-6) Hot replace total time: 0.894s 
+2020-10-05 14:59:05,144 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-4) Changed source files detected, recompiling [/workspace/rquarkusweb/src/main/java/org/crypto/CryptoCurrencyResource.java]
+2020-10-05 14:59:05,305 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStop executed
+2020-10-05 14:59:05,306 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00207: Cancel subscriptions
+2020-10-05 14:59:05,308 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb stopped in 0.004s
+2020-10-05 14:59:05,408 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [io.qua.agr.dep.AgroalProcessor] (build-8) The Agroal dependency is present but no JDBC datasources have been defined.
+2020-10-05 14:59:05,708 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.arc.pro.BeanProcessor] (build-21) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.crypto.CryptoCurrencyResource#echoService,
+	- @Inject field org.greeting.GreetingResource#greetingService,
+	- @Inject field org.greeting.GreetingService#greetingConfig
+2020-10-05 14:59:05,898 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.ForbiddenExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:59:05,898 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jsonb.QuarkusJsonbContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 14:59:05,898 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.AuthenticationFailedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:59:05,898 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jackson.QuarkusObjectMapperContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 14:59:05,898 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.NotFoundExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:59:05,898 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.SecurityContextFilter is already registered.  2nd registration is being ignored.
+2020-10-05 14:59:05,898 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 14:59:05,950 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-05 14:59:05,951 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:59:05,952 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 14:59:05,952 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-05 14:59:05,954 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-05 14:59:05,955 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-05 14:59:05,955 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-05 14:59:05,957 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 0.643s. Listening on: http://0.0.0.0:8080
+2020-10-05 14:59:05,957 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-05 14:59:05,957 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-postgresql, mutiny, narayana-jta, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]
+2020-10-05 14:59:05,958 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-4) Hot replace total time: 0.816s 
+2020-10-05 14:59:14,487 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] ERROR [io.qua.ver.htt.run.QuarkusErrorHandler] (executor-thread-199) HTTP Request to /crypto?id=1 failed, error id: d9435c10-efc9-4c7a-95bc-7205c9b57808-1: org.jboss.resteasy.spi.UnhandledException: java.lang.RuntimeException: Error injecting org.crypto.service.CurrencyService org.crypto.CryptoCurrencyResource.echoService
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:381)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:216)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:515)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:259)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:160)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:163)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:245)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:131)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.access$000(VertxRequestHandler.java:37)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler$1.run(VertxRequestHandler.java:94)
+	at io.quarkus.runtime.CleanableExecutor$CleaningRunnable.run(CleanableExecutor.java:231)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2046)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1578)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1452)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:479)
+Caused by: java.lang.RuntimeException: Error injecting org.crypto.service.CurrencyService org.crypto.CryptoCurrencyResource.echoService
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:248)
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:271)
+	at io.quarkus.arc.impl.AbstractSharedContext.createInstanceHandle(AbstractSharedContext.java:96)
+	at io.quarkus.arc.impl.AbstractSharedContext.access$000(AbstractSharedContext.java:14)
+	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:29)
+	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:26)
+	at io.quarkus.arc.impl.LazyValue.get(LazyValue.java:26)
+	at io.quarkus.arc.impl.ComputingCache.computeIfAbsent(ComputingCache.java:69)
+	at io.quarkus.arc.impl.AbstractSharedContext.get(AbstractSharedContext.java:26)
+	at org.crypto.CryptoCurrencyResource_Bean.get(CryptoCurrencyResource_Bean.zig:303)
+	at org.crypto.CryptoCurrencyResource_Bean.get(CryptoCurrencyResource_Bean.zig:319)
+	at io.quarkus.arc.impl.ArcContainerImpl.beanInstanceHandle(ArcContainerImpl.java:408)
+	at io.quarkus.arc.impl.ArcContainerImpl.beanInstanceHandle(ArcContainerImpl.java:421)
+	at io.quarkus.arc.impl.ArcContainerImpl$1.get(ArcContainerImpl.java:249)
+	at io.quarkus.arc.impl.ArcContainerImpl$1.get(ArcContainerImpl.java:246)
+	at io.quarkus.arc.runtime.ArcRecorder$2$1.create(ArcRecorder.java:84)
+	at io.quarkus.resteasy.common.runtime.QuarkusConstructorInjector.construct(QuarkusConstructorInjector.java:54)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.createResource(POJOResourceFactory.java:70)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:385)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:68)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:488)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Unable to determine the proper baseUrl/baseUri. Consider registering using @RegisterRestClient(baseUri="someuri"), @RegisterRestClient(configKey="orkey"), or by adding 'config.api.crypto/mp-rest/url' or 'config.api.crypto/mp-rest/uri' to your Quarkus configuration
+	at io.quarkus.restclient.runtime.RestClientBase.configureBaseUrl(RestClientBase.java:221)
+	at io.quarkus.restclient.runtime.RestClientBase.create(RestClientBase.java:55)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.create(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:188)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.get(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:219)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.get(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:242)
+	at io.quarkus.arc.impl.CurrentInjectionPointProvider.get(CurrentInjectionPointProvider.java:52)
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:230)
+	... 40 more
+
+2020-10-05 14:59:21,616 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] ERROR [io.qua.ver.htt.run.QuarkusErrorHandler] (executor-thread-199) HTTP Request to /crypto?id=90 failed, error id: d9435c10-efc9-4c7a-95bc-7205c9b57808-2: org.jboss.resteasy.spi.UnhandledException: java.lang.RuntimeException: Error injecting org.crypto.service.CurrencyService org.crypto.CryptoCurrencyResource.echoService
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:381)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:216)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:515)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:259)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:160)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:163)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:245)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:131)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.access$000(VertxRequestHandler.java:37)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler$1.run(VertxRequestHandler.java:94)
+	at io.quarkus.runtime.CleanableExecutor$CleaningRunnable.run(CleanableExecutor.java:231)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2046)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1578)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1452)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:479)
+Caused by: java.lang.RuntimeException: Error injecting org.crypto.service.CurrencyService org.crypto.CryptoCurrencyResource.echoService
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:248)
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:271)
+	at io.quarkus.arc.impl.AbstractSharedContext.createInstanceHandle(AbstractSharedContext.java:96)
+	at io.quarkus.arc.impl.AbstractSharedContext.access$000(AbstractSharedContext.java:14)
+	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:29)
+	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:26)
+	at io.quarkus.arc.impl.LazyValue.get(LazyValue.java:26)
+	at io.quarkus.arc.impl.ComputingCache.computeIfAbsent(ComputingCache.java:69)
+	at io.quarkus.arc.impl.AbstractSharedContext.get(AbstractSharedContext.java:26)
+	at org.crypto.CryptoCurrencyResource_Bean.get(CryptoCurrencyResource_Bean.zig:303)
+	at org.crypto.CryptoCurrencyResource_Bean.get(CryptoCurrencyResource_Bean.zig:319)
+	at io.quarkus.arc.impl.ArcContainerImpl.beanInstanceHandle(ArcContainerImpl.java:408)
+	at io.quarkus.arc.impl.ArcContainerImpl.beanInstanceHandle(ArcContainerImpl.java:421)
+	at io.quarkus.arc.impl.ArcContainerImpl$1.get(ArcContainerImpl.java:249)
+	at io.quarkus.arc.impl.ArcContainerImpl$1.get(ArcContainerImpl.java:246)
+	at io.quarkus.arc.runtime.ArcRecorder$2$1.create(ArcRecorder.java:84)
+	at io.quarkus.resteasy.common.runtime.QuarkusConstructorInjector.construct(QuarkusConstructorInjector.java:54)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.createResource(POJOResourceFactory.java:70)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:385)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:68)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:488)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Unable to determine the proper baseUrl/baseUri. Consider registering using @RegisterRestClient(baseUri="someuri"), @RegisterRestClient(configKey="orkey"), or by adding 'config.api.crypto/mp-rest/url' or 'config.api.crypto/mp-rest/uri' to your Quarkus configuration
+	at io.quarkus.restclient.runtime.RestClientBase.configureBaseUrl(RestClientBase.java:221)
+	at io.quarkus.restclient.runtime.RestClientBase.create(RestClientBase.java:55)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.create(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:188)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.get(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:219)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.get(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:242)
+	at io.quarkus.arc.impl.CurrentInjectionPointProvider.get(CurrentInjectionPointProvider.java:52)
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:230)
+	... 40 more
+
+2020-10-05 14:59:23,614 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] ERROR [io.qua.ver.htt.run.QuarkusErrorHandler] (executor-thread-199) HTTP Request to /crypto?id=90 failed, error id: d9435c10-efc9-4c7a-95bc-7205c9b57808-3: org.jboss.resteasy.spi.UnhandledException: java.lang.RuntimeException: Error injecting org.crypto.service.CurrencyService org.crypto.CryptoCurrencyResource.echoService
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:381)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:216)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:515)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:259)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:160)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:163)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:245)
+	at io.quarkus.resteasy.runtime.standalone.RequestDispatcher.service(RequestDispatcher.java:73)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.dispatch(VertxRequestHandler.java:131)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler.access$000(VertxRequestHandler.java:37)
+	at io.quarkus.resteasy.runtime.standalone.VertxRequestHandler$1.run(VertxRequestHandler.java:94)
+	at io.quarkus.runtime.CleanableExecutor$CleaningRunnable.run(CleanableExecutor.java:231)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2046)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1578)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1452)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:29)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:479)
+Caused by: java.lang.RuntimeException: Error injecting org.crypto.service.CurrencyService org.crypto.CryptoCurrencyResource.echoService
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:248)
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:271)
+	at io.quarkus.arc.impl.AbstractSharedContext.createInstanceHandle(AbstractSharedContext.java:96)
+	at io.quarkus.arc.impl.AbstractSharedContext.access$000(AbstractSharedContext.java:14)
+	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:29)
+	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:26)
+	at io.quarkus.arc.impl.LazyValue.get(LazyValue.java:26)
+	at io.quarkus.arc.impl.ComputingCache.computeIfAbsent(ComputingCache.java:69)
+	at io.quarkus.arc.impl.AbstractSharedContext.get(AbstractSharedContext.java:26)
+	at org.crypto.CryptoCurrencyResource_Bean.get(CryptoCurrencyResource_Bean.zig:303)
+	at org.crypto.CryptoCurrencyResource_Bean.get(CryptoCurrencyResource_Bean.zig:319)
+	at io.quarkus.arc.impl.ArcContainerImpl.beanInstanceHandle(ArcContainerImpl.java:408)
+	at io.quarkus.arc.impl.ArcContainerImpl.beanInstanceHandle(ArcContainerImpl.java:421)
+	at io.quarkus.arc.impl.ArcContainerImpl$1.get(ArcContainerImpl.java:249)
+	at io.quarkus.arc.impl.ArcContainerImpl$1.get(ArcContainerImpl.java:246)
+	at io.quarkus.arc.runtime.ArcRecorder$2$1.create(ArcRecorder.java:84)
+	at io.quarkus.resteasy.common.runtime.QuarkusConstructorInjector.construct(QuarkusConstructorInjector.java:54)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.createResource(POJOResourceFactory.java:70)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:385)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:68)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:488)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Unable to determine the proper baseUrl/baseUri. Consider registering using @RegisterRestClient(baseUri="someuri"), @RegisterRestClient(configKey="orkey"), or by adding 'config.api.crypto/mp-rest/url' or 'config.api.crypto/mp-rest/uri' to your Quarkus configuration
+	at io.quarkus.restclient.runtime.RestClientBase.configureBaseUrl(RestClientBase.java:221)
+	at io.quarkus.restclient.runtime.RestClientBase.create(RestClientBase.java:55)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.create(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:188)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.get(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:219)
+	at org.crypto.service.CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.get(CurrencyService_47aaa9ce0862e6ecb4bfe74e79f232fbc69b6d35_Synthetic_Bean.zig:242)
+	at io.quarkus.arc.impl.CurrentInjectionPointProvider.get(CurrentInjectionPointProvider.java:52)
+	at org.crypto.CryptoCurrencyResource_Bean.create(CryptoCurrencyResource_Bean.zig:230)
+	... 40 more
+
+2020-10-05 15:06:18,413 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-13) File change detected: /workspace/rquarkusweb/src/main/resources/application.properties
+2020-10-05 15:06:18,417 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStop executed
+2020-10-05 15:06:18,418 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00207: Cancel subscriptions
+2020-10-05 15:06:18,420 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb stopped in 0.004s
+2020-10-05 15:06:18,509 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [io.qua.agr.dep.AgroalProcessor] (build-1) The Agroal dependency is present but no JDBC datasources have been defined.
+2020-10-05 15:06:18,869 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.arc.pro.BeanProcessor] (build-2) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.greeting.GreetingResource#greetingService,
+	- @Inject field org.greeting.GreetingService#greetingConfig,
+	- @Inject field org.crypto.CryptoCurrencyResource#echoService
+2020-10-05 15:06:19,047 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.ForbiddenExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:06:19,047 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jsonb.QuarkusJsonbContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 15:06:19,047 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.AuthenticationFailedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:06:19,047 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jackson.QuarkusObjectMapperContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 15:06:19,047 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.NotFoundExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:06:19,047 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.SecurityContextFilter is already registered.  2nd registration is being ignored.
+2020-10-05 15:06:19,047 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:06:19,101 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-05 15:06:19,102 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 15:06:19,102 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 15:06:19,102 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-05 15:06:19,104 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-05 15:06:19,104 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-05 15:06:19,105 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-05 15:06:19,106 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 0.681s. Listening on: http://0.0.0.0:8080
+2020-10-05 15:06:19,106 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-05 15:06:19,106 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-postgresql, mutiny, narayana-jta, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]
+2020-10-05 15:06:19,107 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-13) Hot replace total time: 0.696s 
+2020-10-05 15:09:00,918 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-16) Changed source files detected, recompiling [/workspace/rquarkusweb/src/main/java/org/crypto/data/Currency.java]
+2020-10-05 15:09:01,003 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStop executed
+2020-10-05 15:09:01,005 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00207: Cancel subscriptions
+2020-10-05 15:09:01,011 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb stopped in 0.009s
+2020-10-05 15:09:01,099 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [io.qua.agr.dep.AgroalProcessor] (build-9) The Agroal dependency is present but no JDBC datasources have been defined.
+2020-10-05 15:09:01,387 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.arc.pro.BeanProcessor] (build-20) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.crypto.CryptoCurrencyResource#echoService,
+	- @Inject field org.greeting.GreetingResource#greetingService,
+	- @Inject field org.greeting.GreetingService#greetingConfig
+2020-10-05 15:09:01,574 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.ForbiddenExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:09:01,574 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jsonb.QuarkusJsonbContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 15:09:01,574 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.AuthenticationFailedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:09:01,574 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jackson.QuarkusObjectMapperContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 15:09:01,574 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.NotFoundExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:09:01,574 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.SecurityContextFilter is already registered.  2nd registration is being ignored.
+2020-10-05 15:09:01,574 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:09:01,622 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-05 15:09:01,623 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 15:09:01,624 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 15:09:01,624 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-05 15:09:01,625 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-05 15:09:01,626 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-05 15:09:01,627 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-05 15:09:01,628 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 0.612s. Listening on: http://0.0.0.0:8080
+2020-10-05 15:09:01,628 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-05 15:09:01,628 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-postgresql, mutiny, narayana-jta, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]
+2020-10-05 15:09:01,628 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-16) Hot replace total time: 0.712s 
+2020-10-05 15:12:23,705 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-0) Changed source files detected, recompiling [/workspace/rquarkusweb/src/main/java/org/crypto/data/Currency.java]
+2020-10-05 15:12:23,783 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStop executed
+2020-10-05 15:12:23,785 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00207: Cancel subscriptions
+2020-10-05 15:12:23,787 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb stopped in 0.004s
+2020-10-05 15:12:23,878 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [io.qua.agr.dep.AgroalProcessor] (build-7) The Agroal dependency is present but no JDBC datasources have been defined.
+2020-10-05 15:12:24,219 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.arc.pro.BeanProcessor] (build-6) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field org.greeting.GreetingService#greetingConfig,
+	- @Inject field org.crypto.CryptoCurrencyResource#echoService,
+	- @Inject field org.greeting.GreetingResource#greetingService
+2020-10-05 15:12:24,401 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.ForbiddenExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:12:24,401 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jsonb.QuarkusJsonbContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 15:12:24,401 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.AuthenticationFailedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:12:24,401 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.common.runtime.jackson.QuarkusObjectMapperContextResolver is already registered.  2nd registration is being ignored.
+2020-10-05 15:12:24,401 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.NotFoundExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:12:24,401 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.SecurityContextFilter is already registered.  2nd registration is being ignored.
+2020-10-05 15:12:24,401 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] WARN  [org.jbo.res.res.i18n] (Quarkus Main Thread) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper is already registered.  2nd registration is being ignored.
+2020-10-05 15:12:24,447 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00208: Deployment done... start processing
+2020-10-05 15:12:24,448 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00226: Found incoming connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 15:12:24,449 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00227: Found outgoing connectors: [smallrye-mqtt, smallrye-kafka, smallrye-amqp]
+2020-10-05 15:12:24,449 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00229: Channel manager initializing...
+2020-10-05 15:12:24,451 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00209: Initializing mediators
+2020-10-05 15:12:24,451 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00215: Connecting mediators
+2020-10-05 15:12:24,452 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [Lifecycle] (Quarkus Main Thread) onStart executed
+2020-10-05 15:12:24,453 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) rquarkusweb 1.0.0 on JVM (powered by Quarkus 1.8.1.Final) started in 0.662s. Listening on: http://0.0.0.0:8080
+2020-10-05 15:12:24,453 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2020-10-05 15:12:24,454 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-postgresql, mutiny, narayana-jta, reactive-pg-client, rest-client, rest-client-jsonb, resteasy, resteasy-jackson, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-reactive-messaging, smallrye-reactive-messaging-amqp, smallrye-reactive-messaging-kafka, smallrye-reactive-messaging-mqtt, swagger-ui, vertx, vertx-web]
+2020-10-05 15:12:24,454 ws-6334ac7c-bcc2-4560-8259-bf0101dc7b70 rquarkusweb-dev.jar[5527] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-0) Hot replace total time: 0.751s 

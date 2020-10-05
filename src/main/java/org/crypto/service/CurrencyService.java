@@ -16,7 +16,7 @@ import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
 
 @RegisterRestClient(configKey = "config.api.crypto")
-@Path("echo")
+@Path("ticker")
 public interface CurrencyService {
 
     @GET

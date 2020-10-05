@@ -13,6 +13,14 @@ public class Currency {
 
     public Currency() {
     }
+    
+    public Currency(String symbol , String name, String priceUsd, String priceBtc) {
+        this.symbol = symbol;
+        this.name = name;
+        this.priceUsd = priceUsd;
+        this.priceBtc = priceBtc;
+    }
+
 
     public String getId() {
         return id;
@@ -53,4 +61,5 @@ public class Currency {
     public void setPriceBtc(String priceBtc) {
         this.priceBtc = priceBtc;
     }
-}
+
+} 
