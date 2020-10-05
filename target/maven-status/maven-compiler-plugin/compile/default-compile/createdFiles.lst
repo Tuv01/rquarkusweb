@@ -1,0 +1,14 @@
+org/fruits/Fruit.class
+org/greeting/GreetingResource.class
+org/fruits/LegumeResource.class
+org/config/GreetingConfig$CountryConfig.class
+org/fruits/Legume.class
+org/service/BookService.class
+org/applifecycle/AppLifecycleListener.class
+org/fruits/FruitResource.class
+org/config/GreetingConfig.class
+org/data/Book.class
+org/config/JsonConverterConfig.class
+org/greeting/GreetingService.class
+META-INF/panache-archive.marker
+org/books/BookResource.class
