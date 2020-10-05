@@ -8,7 +8,8 @@ org/applifecycle/AppLifecycleListener.class
 org/fruits/FruitResource.class
 org/config/GreetingConfig.class
 org/data/Book.class
-org/config/JsonConverterConfig.class
 org/greeting/GreetingService.class
+org/config/JsonConverterConfig.class
 META-INF/panache-archive.marker
 org/books/BookResource.class
+org/crypto/CryptoCurrencyResource.class
