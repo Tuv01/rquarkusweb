@@ -9,8 +9,10 @@
 /workspace/rquarkusweb/src/main/java/org/greeting/GreetingService.java
 /workspace/rquarkusweb/src/main/java/org/fruits/Fruit.java
 /workspace/rquarkusweb/src/main/java/org/crypto/data/Currency.java
+/workspace/rquarkusweb/src/main/java/org/stockyahoo/StockResource.java
 /workspace/rquarkusweb/src/main/java/org/applifecycle/AppLifecycleListener.java
 /workspace/rquarkusweb/src/main/java/org/data/Book.java
 /workspace/rquarkusweb/src/main/java/org/fruits/LegumeResource.java
 /workspace/rquarkusweb/src/main/java/org/service/BookService.java
 /workspace/rquarkusweb/src/main/java/org/crypto/data/MultipartBody.java
+/workspace/rquarkusweb/src/main/java/org/stockyahoo/StockLatestPriceResponse.java
